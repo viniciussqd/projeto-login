@@ -7,30 +7,30 @@
     }
 
     #login {
-        height: 450px;
+        height: 310px;
         width: 80vw;
     }
 
     #imagemdiv {
         position: absolute;
-        left: 60%;
+        left: 70%;
         height: 100%;
-        width: 40%;
+        width: 30%;
         
     }
 
     #formdiv {
-        top: 0;
+        top: 7%;
         height: 100%;
-        width: 60%;
+        width: 70%;
     }
 }
 
 @media screen and (min-width: 992px) {
 
     #login {
-        width: 900px;
-        height: 500px;
+        width: 80%;
+        height: 360px;
     }
 
     #imagemdiv {
@@ -54,5 +54,4 @@
 
         font-size: 0.95em;
     }
-
 }

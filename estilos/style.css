@@ -13,6 +13,7 @@ body {
 body, html {
     width: 100vw;
     height: 100vh;
+   
 } 
 
 main {
@@ -27,22 +28,22 @@ main {
     transform: translate(-50%, -50%);
     background-color: white;
     position: absolute;
-    height: 550px;
-    width: 50%;
+    height: 530px;
+    width: 250px;
     border-radius: 20px;
     overflow: hidden;
 }
 
 #imagemdiv {
     background-image: url(../imagens/imagem.jpg);
-    height: 240px;
+    height: 210px;
     background-position: center bottom;
     display: block;
 }
 
 #formdiv {
     display: block;
-    top: 47%;
+    top: 41%;
     position: absolute;
 }
 
@@ -60,18 +61,32 @@ main {
 .campo {
     background-color: rgb(108, 29, 182);
     width: 95%;
-    padding-bottom: 10px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px auto;
+    padding-top: 2px;
 }
 
 .campo > label {
     display: none;
 }
 
-form > div > i {
+.campo > i {
     color: white;
-    
+    font-size: 2em;
+    padding: 5px;
+}
+
+.campo > input {
+   
+    background-color: rgb(147, 231, 213);
+    height: 30px;
+    width: calc(100% - 62px);
+    border-radius: 8px;
+    transform: translateY(-10px);
+}
+
+.campo > input:focus-within {
+    background-color: white;
 }
 
 form > input[type=submit] {
@@ -104,10 +119,5 @@ form > a {
 }
 
 form > a:hover {
-    background-color: rgb(68, 138, 123);
+    background-color: rgb(76, 141, 127);
 }
-
-
-
-
-
