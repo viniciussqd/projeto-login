@@ -27,8 +27,8 @@ main {
     transform: translate(-50%, -50%);
     background-color: white;
     position: absolute;
-    height: 530px;
-    width: 60%;
+    height: 550px;
+    width: 50%;
     border-radius: 20px;
     overflow: hidden;
 }
@@ -42,13 +42,13 @@ main {
 
 #formdiv {
     display: block;
-    top: 50%;
+    top: 47%;
     position: absolute;
 }
 
 #formdiv h1 {
     text-align: center;
-    padding: 10px 0px;
+    padding-bottom: 10px;
 
 }
 
@@ -56,6 +56,58 @@ main {
     font-size: 0.8em;
     padding: 0px 10px 10px 10px
 }
+
+.campo {
+    background-color: rgb(108, 29, 182);
+    width: 95%;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin: 5px auto;
+}
+
+.campo > label {
+    display: none;
+}
+
+form > div > i {
+    color: white;
+    
+}
+
+form > input[type=submit] {
+    display: block;
+    color: white;
+    background-color: rgb(94, 196, 174);
+    width: 95%;
+    margin: auto;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+form > input[type=submit]:hover {
+    background-color: rgb(68, 138, 123);
+    cursor: pointer;
+}
+
+form > a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    width: 95%;
+    height: 25px;
+    text-align: center;
+    margin: 5px auto;
+    border-radius: 5px;
+    padding-top: 10px;
+    background-color: rgb(94, 196, 174);
+}
+
+form > a:hover {
+    background-color: rgb(68, 138, 123);
+}
+
+
 
 
 

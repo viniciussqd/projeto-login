@@ -3,7 +3,7 @@
 @media screen and (min-width: 768px) {
 
     body {
-        background-image: linear-gradient(to right, rgb(121, 10, 121), rgb(3, 121, 72));
+        background-image: linear-gradient(to right, rgb(126, 47, 126), rgb(28, 133, 89));
     }
 
     #login {
@@ -27,10 +27,6 @@
 }
 
 @media screen and (min-width: 992px) {
-
-    body {
-        background-image: linear-gradient(to right, rgb(121, 10, 121),  rgb(3, 121, 72));
-    }
 
     #login {
         width: 900px;
